@@ -15,3 +15,8 @@ main {
 footer {
   background: skyblue;
 }
+.max-width {
+  background: rgba(0, 0, 0, 0.5);
+  width: min(calc(var(--max-width) * 1rem), 100%);
+  margin: auto;
+}
